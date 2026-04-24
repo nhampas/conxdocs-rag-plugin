@@ -1,0 +1,9 @@
+{
+  "name": "conxdocs-rag",
+  "description": "ConXTFW documentation RAG — query docs, generate pytest tests, and convert Robot Framework tests to ConXTFW pytest.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Volvo Cars ConXTFW Team"
+  },
+  "skills": "skills/"
+}

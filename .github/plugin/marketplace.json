@@ -1,0 +1,18 @@
+{
+  "name": "Volvo Cars ConX SFE Marketplace",
+  "owner": {
+    "name": "Volvo Cars ConXTFW Team"
+  },
+  "metadata": {
+    "description": "ConXTFW RAG plugins for querying docs, generating and converting pytest tests",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "conxdocs-rag",
+      "description": "Query ConXTFW documentation, generate pytest tests, and convert Robot Framework tests to ConXTFW pytest",
+      "version": "1.0.0",
+      "source": "."
+    }
+  ]
+}

@@ -144,18 +144,25 @@ def test_another(core_power):
     ...
 ```
 
-Common fixture categories (verified):
-- `core_ssh` — SSH communication with ECU
-- `core_power` — power control (sleep, reboot, wake)
+Component fixtures (official, from conxdocs.volvocars.net/conxtfw/latest/framework/pytest/fixtures/component/index.html):
+- `core_adb` — Android Debug Bridge
+- `core_app_config` — application configuration access
+- `core_app_config_dict` — app config as Python dict
+- `core_app_config_plugin` — app config plugin access
+- `core_audio` — audio capture and playback
+- `core_baseline` — baseline management
 - `core_canoe` — CANoe CAN/LIN/Ethernet simulation
 - `core_diagnostics` — UDS/DoIP diagnostic communication
-- `core_audio` — audio capture and playback
-- `core_vision` — camera/display validation
-- `core_adb` — Android Debug Bridge
+- `core_kayak` — Kayak CAN bus analysis
+- `core_logger_canoe` — CANoe log capture
 - `core_logger_dlt` — DLT log capture
-- `core_logger_serial` — serial communication logging
 - `core_logger_doip` — DoIP log capture
+- `core_logger_ethernet` — Ethernet log capture
+- `core_logger_serial` — serial communication logging
+- `core_power` — power control (sleep, reboot, wake)
 - `core_snok` — test node operations
+- `core_ssh` — SSH communication with ECU
+- `core_vision` — camera/display validation
 
 Note: `core_gnss` and `core_serial` do NOT exist as fixtures.
 

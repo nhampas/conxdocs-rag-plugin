@@ -11,7 +11,7 @@
     {
       "name": "conxdocs-rag",
       "description": "Query ConXTFW documentation, generate pytest tests, and convert Robot Framework tests to ConXTFW pytest",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "source": "."
     }
   ]

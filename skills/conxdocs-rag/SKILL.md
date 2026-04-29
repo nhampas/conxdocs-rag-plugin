@@ -144,11 +144,20 @@ def test_another(core_power):
     ...
 ```
 
-Common fixture categories:
+Common fixture categories (verified):
 - `core_ssh` — SSH communication with ECU
 - `core_power` — power control (sleep, reboot, wake)
-- `core_gnss` — GNSS/GPS positioning
-- `core_serial` — serial communication / AT commands
+- `core_canoe` — CANoe CAN/LIN/Ethernet simulation
+- `core_diagnostics` — UDS/DoIP diagnostic communication
+- `core_audio` — audio capture and playback
+- `core_vision` — camera/display validation
+- `core_adb` — Android Debug Bridge
+- `core_logger_dlt` — DLT log capture
+- `core_logger_serial` — serial communication logging
+- `core_logger_doip` — DoIP log capture
+- `core_snok` — test node operations
+
+Note: `core_gnss` and `core_serial` do NOT exist as fixtures.
 
 ---
 
